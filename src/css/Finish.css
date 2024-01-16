@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(0deg, transparent 0%, transparent 50%, rgba(255, 0, 0, 0) 50%, rgb(255, 0, 0) 100%);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 20px;
+    background: #f3e3e3;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    display: flex;
+}
+
+.wrapper{
+    position: fixed;
+    bottom: 7%;
+    width: 60vw;
+    height: 80vh;
+    background-color: #f3e3e3;
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+label{
+    font-size: 1.2em;
+    font-weight: 500;
+    user-select: none;
+}
+
+.body{
+    margin-top: 300px;
+    width: 95%;
+    height: 640px;
+    background-color: #fff4;
+    margin: 1.5rem 1.5rem;
+    border-radius: .6rem;
+    overflow: auto;
+    padding:200px 0;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+
+.foot{
+    width: 100%;
+    height: 15%;
+    background-color: #fff4;
+    text-align: center;
+    padding:20px;
+    
+}
+
+.register{
+    font-size: 1.1em;
+    color: #fff;
+    border: 2px solid rgb(16, 16, 16);
+    background: #000000;
+    width: 7em;
+    height:3em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main.WrapperFinish{
+    position: fixed;
+    bottom: 7%;
+    width: 60vw;
+    height: 80vh;
+    background-color: #f3e3e3;
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+.BodyFinish{
+    margin-top: 300px;
+    width: 95%;
+    height: 640px;
+    background-color: #fff4;
+    margin: 1.5rem 1.5rem;
+    border-radius: .6rem;
+    overflow: auto;
+    padding:200px 0;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.FootFinish{
+    width: 100%;
+    height: 15%;
+    background-color: #fff4;
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media (max-width=1000px){
+    td:not(:first-of-type){
+        min-width: 12.1rem;
+    }
+}
