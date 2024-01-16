@@ -3,4 +3,4 @@
 ### クラス　　　：SD2G
 ### 氏名　　　　：永江　純大
 ### システム名　：ポケモンカードボックス資産管理システム
-### URL　　　　 ：
+### URL　　　　 ：https://aso2201374.chowder.jp/final/src/BoxList.php
